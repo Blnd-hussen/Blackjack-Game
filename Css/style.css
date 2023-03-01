@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(22, 57, 22);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+h1 {
+    color: goldenrod;
+    margin-top: 60px;
+}
+#start-btn, #new-btn {
+    font: inherit;
+    width: 190px;
+    padding: 5px;
+    background-color: goldenrod;
+    color: rgb(22, 57, 22);
+    border:1px solid goldenrod;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+#start-btn {
+    margin: 10px 0;
+}
