@@ -13,6 +13,16 @@ h1 {
     color: goldenrod;
     margin-top: 60px;
 }
+.cards-container {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    padding: 1rem;
+}
+img {
+    width: 100px;
+}
+
 #start-btn, #new-btn {
     font: inherit;
     width: 190px;
